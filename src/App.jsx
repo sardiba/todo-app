@@ -1,8 +1,7 @@
 import './App.css'
-import { TodoItem } from './components/TodoItem';
 import { TodoList } from './components/TodoList';
 
-function App() {
+export const App = () => {
 
   return (
     <div className="App"> 
@@ -11,4 +10,4 @@ function App() {
   )
 }
 
-export default App;
+// export { App };
